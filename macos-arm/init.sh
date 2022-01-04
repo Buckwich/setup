@@ -15,3 +15,5 @@ git config --global user.email "Buckwich@users.noreply.github.com"
 brew install gh
 gh auth login
 git clone https://github.com/Buckwich/setup
+
+echo "To continue setup, run \n\tsetup/macos-arm/setup.sh"
