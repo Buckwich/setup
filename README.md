@@ -18,6 +18,7 @@ mkdir -p ~/git && cd ~/git
 [More Infos](./windows/README.md)
 
 ```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
 . { iwr -useb https://boxstarter.org/bootstrapper.ps1 } | iex; Get-Boxstarter -Force
 Install-BoxstarterPackage -PackageName https://raw.githubusercontent.com/buckwich/setup/master/windows/init-boxstarter.txt -DisableReboots
 ```
