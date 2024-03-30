@@ -1,1 +1,0 @@
-cinst .\windows-11\packages.config

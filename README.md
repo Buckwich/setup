@@ -15,7 +15,7 @@ mkdir -p ~/git && cd ~/git
 
 ## Windows 11
 
-[More Infos](./windows/README.md)
+[More Infos](./windows-11/README.md)
 
 The following commands have to be run in an elevated PowerShell (Windows Terminal):
 

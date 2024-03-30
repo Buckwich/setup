@@ -1,7 +1,0 @@
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -DisableShowRecentFilesInQuickAccess -DisableShowFrequentFoldersInQuickAccess
-
-Install-WindowsUpdate
-
-cinst googlechrome
-cinst git
-cinst gh
